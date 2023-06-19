@@ -15,6 +15,46 @@ const questions = {
       options: ['8', '6', '4', '10'],
       answer: '8'
     },
+     {
+       question : 'Solve for x: 3x + 7 = 22.',
+       options: ['x = 5', 'x = 6', 'x = 7', 'x = 8'],
+       answer: 'x = 5'
+     },
+     {
+       question: 'Simplify the expression: 4(2x + 3) - 2(x - 5).',
+       options: ['6x + 14', '8x - 8', '6x + 8', '8x - 14'],
+       answer: '6x + 14'
+     },
+     {
+       question: 'Find the value of x: 2(x - 3) = 5x - 6.',
+       options: ['x = -2', 'x = 1', 'x = 2', 'x = 3'],
+       answer: 'x = 3'
+     },
+     {
+       question : 'Solve the equation: 2x - 5 = 7.',
+       options: ['x = 3', 'x = 4', 'x = 5', 'x = 6'],
+       answer: 'x = 6'
+     },
+     {
+       question : 'Evaluate the expression: 3^4.',
+       options: ['81', '27', '12', '64'],
+       answer: '81'
+     },
+     {
+       question : 'Calculate the square root of 144.',
+       options: ['12', '10', '14', '16'],
+       answer: '12'
+     },
+     {
+       question : 'Solve for x: 2x + 5 = 13.',
+       options: ['x = 3', 'x = 4', 'x = 6', 'x = 9'],
+       answer: 'x = 4'
+     },
+     {
+       question: 'Find the solution to the equation: 4x - 8 = 12.',
+       options: ['x = 5', 'x = 6', 'x = 7', 'x = 8'],
+       answer: 'x = 5'
+     },
     // Add more math questions here...
   ],
   SCIENCE: [
