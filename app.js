@@ -5,7 +5,7 @@ const subject = urlParams.get('subject');
 // test questions for each subject
 const questions = {
   MATHEMATICS: [
-    {
+   {
       question: 'What is 2 + 2?',
       options: ['4', '2', '6', '8'],
       answer: '4'
@@ -15,47 +15,96 @@ const questions = {
       options: ['8', '6', '4', '10'],
       answer: '8'
     },
-     {
-       question : 'Solve for x: 3x + 7 = 22.',
-       options: ['x = 5', 'x = 6', 'x = 7', 'x = 8'],
-       answer: 'x = 5'
-     },
-     {
-       question: 'Simplify the expression: 4(2x + 3) - 2(x - 5).',
-       options: ['6x + 14', '8x - 8', '6x + 8', '8x - 14'],
-       answer: '6x + 14'
-     },
-     {
-       question: 'Find the value of x: 2(x - 3) = 5x - 6.',
-       options: ['x = -2', 'x = 1', 'x = 2', 'x = 3'],
-       answer: 'x = 3'
-     },
-     {
-       question : 'Solve the equation: 2x - 5 = 7.',
-       options: ['x = 3', 'x = 4', 'x = 5', 'x = 6'],
-       answer: 'x = 6'
-     },
-     {
-       question : 'Evaluate the expression: 3^4.',
-       options: ['81', '27', '12', '64'],
-       answer: '81'
-     },
-     {
-       question : 'Calculate the square root of 144.',
-       options: ['12', '10', '14', '16'],
-       answer: '12'
-     },
-     {
-       question : 'Solve for x: 2x + 5 = 13.',
-       options: ['x = 3', 'x = 4', 'x = 6', 'x = 9'],
-       answer: 'x = 4'
-     },
-     {
-       question: 'Find the solution to the equation: 4x - 8 = 12.',
-       options: ['x = 5', 'x = 6', 'x = 7', 'x = 8'],
-       answer: 'x = 5'
-     },
-    // Add more math questions here...
+    {
+      question: 'What is 2 + 2?',
+      options: ['4', '2', '6', '8'],
+      answer: '4'
+    },
+    {
+      question: 'What is the square root of 144?',
+      options: ['12', '16', '8', '10'],
+      answer: '12'
+    },
+      {
+      question: 'What is the value of pi (π)?',
+      options: ['3.14', '2.71', '1.62', '4.20'],
+      answer: '3.14'
+    },
+    {
+      question: 'What is the product of 5 and 7?',
+      options: ['25', '30', '35', '40'],
+      answer: '35'
+    },
+    {
+      question: 'What is the result of 10 divided by 2?',
+      options: ['2', '5', '8', '10'],
+      answer: '5'
+    },
+    {
+      question: 'What is the next number in the sequence: 1, 1, 2, 3, 5, ...?',
+      options: ['7', '8', '9', '10'],
+      answer: '8'
+    },
+    {
+      question: 'What is the area of a square with a side length of 6 units?',
+      options: ['12 square units', '18 square units', '24 square units', '36 square units'],
+      answer: '36 square units'
+    },
+    {
+      question: 'What is the sum of angles in a triangle?',
+      options: ['90 degrees', '180 degrees', '270 degrees', '360 degrees'],
+      answer: '180 degrees'
+    },
+    {
+      question: 'If a = 3 and b = 4, what is the value of a^2 + b^2?',
+      options: ['5', '12', '16', '25'],
+      answer: '25'
+    },
+    {
+      question: 'What is the decimal equivalent of 3/5?',
+      options: ['0.3', '0.5', '0.6', '0.8'],
+      answer: '0.6'
+    },
+    {
+      question: 'What is the circumference of a circle with a diameter of 8 units?',
+      options: ['8 units', '12 units', '16 units', '32 units'],
+      answer: '25.12 units'
+    },
+    {
+      question: 'What is the largest prime number less than 20?',
+      options: ['15', '17', '19', '21'],
+      answer: '19'
+    },
+    {
+      question: 'What is the value of log10(100)?',
+      options: ['1', '2', '10', '100'],
+      answer: '2'
+    },
+    {
+      question: 'What is the median of the following set of numbers: 5, 2, 8, 3, 9, 1?',
+      options: ['2', '4', '5', '8'],
+      answer: '5'
+    },
+    {
+      question: 'If x + 4 = 10, what is the value of x?',
+      options: ['2', '4', '6', '10'],
+      answer: '6'
+    },
+    {
+      question: 'What is the value of sin(90 degrees)?',
+      options: ['0', '1', '-1', 'undefined'],
+      answer: '1'
+    },
+    {
+      question: 'What is the perimeter of a rectangle with length 5 units and width 7 units?',
+      options: ['12 units', '20 units', '24 units', '35 units'],
+      answer: '24 units'
+    },
+    {
+      question: 'What is the value of 3 factorial (3!)?',
+      options: ['3', '6', '9', '12'],
+      answer: '6'
+    }
   ],
   SCIENCE: [
     {
