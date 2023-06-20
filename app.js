@@ -65,10 +65,99 @@ const questions = {
     },
     {
       question: 'What is the largest planet in our solar system?',
-      options: ['Earth', 'Jupiter', 'Mars', 'Saturn'],
+      options: ['Jupiter', 'Saturn', 'Neptune', 'Earth'],
       answer: 'Jupiter'
     },
-    // Add more science questions here...
+    {
+      question: 'What is the atomic number of carbon?',
+      options: ['6', '8', '12', '16'],
+      answer: '6'
+    },
+    {
+      question: 'What is the process by which plants convert sunlight into food?',
+      options: ['Photosynthesis', 'Respiration', 'Fermentation', 'Combustion'],
+      answer: 'Photosynthesis'
+    },
+    {
+      question: 'Which scientist is known for the theory of relativity?',
+      options: ['Isaac Newton', 'Albert Einstein', 'Galileo Galilei', 'Nikola Tesla'],
+      answer: 'Albert Einstein'
+    },
+    {
+      question: 'What is the unit of electric current?',
+      options: ['Volt', 'Ampere', 'Watt', 'Ohm'],
+      answer: 'Ampere'
+    },
+    {
+      question: 'What is the closest star to Earth?',
+      options: ['Alpha Centauri', 'Proxima Centauri', 'Sirius', 'Betelgeuse'],
+      answer: 'Proxima Centauri'
+    },
+    {
+      question: 'What is the chemical formula for table salt?',
+      options: ['H2O', 'NaCl', 'CO2', 'HCl'],
+      answer: 'NaCl'
+    },
+    {
+      question: 'Which planet is known as the "Red Planet"?',
+      options: ['Mars', 'Venus', 'Mercury', 'Saturn'],
+      answer: 'Mars'
+    },
+    {
+      question: 'What is the largest organ in the human body?',
+      options: ['Brain', 'Heart', 'Liver', 'Skin'],
+      answer: 'Skin'
+    },
+    {
+      question: 'What is the study of heredity and variation in organisms called?',
+      options: ['Ecology', 'Genetics', 'Zoology', 'Botany'],
+      answer: 'Genetics'
+    },
+    {
+      question: 'What is the SI unit of force?',
+      options: ['Newton', 'Watt', 'Joule', 'Kilogram'],
+      answer: 'Newton'
+    },
+    {
+      question: 'What is the process by which a liquid turns into a gas called?',
+      options: ['Condensation', 'Melting', 'Evaporation', 'Sublimation'],
+      answer: 'Evaporation'
+    },
+    {
+      question: 'What is the chemical formula for oxygen?',
+      options: ['O2', 'H2O', 'CO2', 'NaCl'],
+      answer: 'O2'
+    },
+    {
+      question: 'Which gas is responsible for the Earth ozone layer?',
+      options: ['Oxygen', 'Carbon dioxide', 'Nitrogen', 'Ozone'],
+      answer: 'Ozone'
+    },
+    {
+      question: 'What is the speed of light in a vacuum?',
+      options: ['300,000 km/s', '150,000 km/s', '600,000 km/s', '1,000,000 km/s'],
+      answer: '300,000 km/s'
+    },
+    {
+      question: 'Which scientist discovered the law of gravity?',
+      options: ['Isaac Newton', 'Albert Einstein', 'Galileo Galilei', 'Nikola Tesla'],
+      answer: 'Isaac Newton'
+    },
+    {
+      question: 'What is the chemical symbol for iron?',
+      options: ['I', 'Fe', 'Au', 'Ag'],
+      answer: 'Fe'
+    },
+    {
+      question: 'What is the study of the Earth atmosphere called?',
+      options: ['Biology', 'Chemistry', 'Geology', 'Meteorology'],
+      answer: 'Meteorology'
+    },
+    {
+      question: 'What is the largest organ in the human body?',
+      options: ['Brain', 'Heart', 'Liver', 'Skin'],
+      answer: 'Skin'
+    } 
   ],
   GEOGRAPHY: [
      {
