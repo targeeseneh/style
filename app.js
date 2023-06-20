@@ -71,17 +71,125 @@ const questions = {
     // Add more science questions here...
   ],
   GEOGRAPHY: [
-    {
-      question: 'Who was the first President of the United States?',
-      options: ['George Washington', 'Thomas Jefferson', 'Abraham Lincoln', 'John Adams'],
-      answer: 'George Washington'
+     {
+      question: 'Which continent is known as the "Land Down Under"?',
+      options: ['North America', 'South America', 'Europe', 'Australia'],
+      answer: 'Australia'
     },
+      
     {
-      question: 'In what year did World War II end?',
-      options: ['1939', '1945', '1951', '1941'],
-      answer: '1945'
+      question: 'What is the capital city of Japan?',
+      options: ['Tokyo', 'Beijing', 'Seoul', 'Bangkok'],
+      answer: 'Tokyo'
     },
-    // Add more history questions here...
+      
+    {
+      question: 'What is the longest river in the world?',
+      options: ['Amazon River', 'Nile River', 'Mississippi River', 'Yangtze River'],
+      answer: 'Nile River'
+    },
+      
+    {
+      question: 'Which country is both an island and a continent?',
+      options: ['Japan', 'United Kingdom', 'Madagascar', 'Australia'],
+      answer: 'Australia'
+    },
+      
+    {
+      question: 'Which country is famous for the ancient ruins of Machu Picchu?',
+      options: ['Mexico', 'Peru', 'Egypt', 'Greece'],
+      answer: 'Peru'
+    },
+      
+    {
+      question: 'What is the largest desert in the world?',
+      options: ['Gobi Desert', 'Sahara Desert', 'Atacama Desert', 'Antarctic Desert'],
+      answer: 'Sahara Desert'
+    },
+      
+    {
+      question: 'What is the highest mountain in the world?',
+      options: ['Mount Kilimanjaro', 'Mount Everest', 'Mount McKinley', 'Mount Fuji'],
+      answer: 'Mount Everest'
+    },
+      
+    {
+      question: 'Which country is known as the "Land of the Rising Sun"?',
+      options: ['China', 'Japan', 'South Korea', 'India'],
+      answer: 'Japan'
+    },
+      
+    {
+      question: 'Which city is the capital of France?',
+      options: ['Paris', 'London', 'Rome', 'Berlin'],
+      answer: 'Paris'
+    },
+      
+    {
+      question: 'What is the largest ocean in the world?',
+      options: ['Pacific Ocean', 'Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean'],
+      answer: 'Pacific Ocean'
+    },
+      
+    {
+      question: 'Which country is the largest producer of coffee in the world?',
+      options: ['Brazil', 'Colombia', 'Ethiopia', 'Vietnam'],
+      answer: 'Brazil'
+    },
+      
+    {
+      question: 'What is the official language of Brazil?',
+      options: ['Spanish', 'Portuguese', 'English', 'French'],
+      answer: 'Portuguese'
+    },
+      
+    {
+      question: 'Which city is located on two continents?',
+      options: ['Istanbul', 'Rome', 'Athens', 'Cairo'],
+      answer: 'Istanbul'
+    },
+      
+    {
+      question: 'What is the capital city of Canada?',
+      options: ['Toronto', 'Vancouver', 'Montreal', 'Ottawa'],
+      answer: 'Ottawa'
+    },
+      
+    {
+      question: 'Which country is the largest in terms of land area?',
+      options: ['China', 'Russia', 'United States', 'Canada'],
+      answer: 'Russia'
+    },
+      
+    {
+      question: 'What is the largest island in the world?',
+      options: ['Greenland', 'Madagascar', 'Borneo', 'Cuba'],
+      answer: 'Greenland'
+    },
+      
+    {
+      question: 'Which country is known as "The Land of the Rising Sun"?',
+      options: ['China', 'Japan', 'South Korea', 'India'],
+      answer: 'Japan'
+    },
+      
+    {
+      question: 'What is the capital city of Australia?',
+      options: ['Sydney', 'Melbourne', 'Brisbane', 'Canberra'],
+      answer: 'Canberra'
+    },
+      
+    {
+      question: 'Which country is famous for the pyramids of Giza?',
+      options: ['Mexico', 'Peru', 'Egypt', 'Greece'],
+      answer: 'Egypt'
+    },
+      
+    {
+      question: 'Which country is known as the "Land of the Midnight Sun"?',
+      options: ['Norway', 'Sweden', 'Finland', 'Iceland'],
+      answer: 'Norway'
+    }
   ],
 };
 
